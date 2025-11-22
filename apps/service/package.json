@@ -1,0 +1,28 @@
+{
+    "name": "service",
+    "type": "module",
+    "private": true,
+    "version": "0.0.1",
+    "description": "AnyDM Service",
+    "scripts": {
+        "clean": "rm -rf dist && rm -rf node_modules",
+        "fmt": "bunx prettier . --write",
+        "fmt.chk": "bunx prettier --check .",
+        "chk": "bunx tsc --noEmit",
+        "dev": "bun --hot src/index.ts"
+    },
+    "dependencies": {
+        "hono": "^4.10.4",
+        "webtorrent": "^2.8.4",
+        "ytdl-core": "^4.11.5"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/webtorrent": "^0.110.1",
+        "prettier": "^3.6.2",
+        "prettier-plugin-multiline-arrays": "^4.0.3"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    }
+}

@@ -1,0 +1,12 @@
+/**
+ * Converts the input into a string. Tries first with JSON5 and, if that fails, falls back to a
+ * regular `.toString()` conversion.
+ *
+ * @category Object
+ * @category String
+ * @category Package : @augment-vir/common
+ * @package [`@augment-vir/common`](https://www.npmjs.com/package/@augment-vir/common)
+ */
+export declare function stringify(input: unknown, 
+/** Passed directly to the `space` parameter of `JSON.stringify`. */
+space?: string | number): string;

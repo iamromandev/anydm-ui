@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.home-container {
+    @apply flex min-h-screen w-full items-center justify-center;
+    background-color: var(--custom-bg); /* Reference from global.css */
+}
+
+.home-box {
+    @apply w-full max-w-md rounded-lg bg-white p-8 shadow-lg;
+}
+
+.home-header {
+    @apply mb-8 text-center;
+}
+
+.home-header h1 {
+    @apply mb-2 text-2xl font-bold text-gray-900;
+}
+
+.home-header p {
+    @apply text-gray-600;
+}
+
+.home-form {
+    @apply space-y-4;
+}

@@ -1,0 +1,20 @@
+/* global.css */
+@import "tailwindcss";
+
+:root {
+    --custom-bg: #f8f0f0; /* light red-gray */
+    --custom-bg-dark: #e8dcdc; /* slightly darker red-gray */
+}
+
+/* Keep your utility classes for HTML use */
+.bg-custom {
+    background-color: var(--custom-bg);
+}
+
+.bg-custom-gradient {
+    background: linear-gradient(
+        to bottom right,
+        var(--custom-bg),
+        var(--custom-bg-dark)
+    );
+}

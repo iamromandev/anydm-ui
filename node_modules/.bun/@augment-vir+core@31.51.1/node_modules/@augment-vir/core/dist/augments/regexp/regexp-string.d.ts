@@ -1,0 +1,9 @@
+/**
+ * Escapes characters from the given string so that it can be used within a RegExp without being
+ * parsed as RegExp syntax.
+ *
+ * @category RegExp
+ * @category Package : @augment-vir/common
+ * @package [`@augment-vir/common`](https://www.npmjs.com/package/@augment-vir/common)
+ */
+export declare function escapeStringForRegExp(input: string): string;

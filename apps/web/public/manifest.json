@@ -1,0 +1,8 @@
+{
+    "name": "Any Download Manager",
+    "short_name": "AnyDM",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#000"
+}
