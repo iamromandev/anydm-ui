@@ -1,0 +1,14 @@
+# core
+.DS_Store
+.idea
+
+# project
+node_modules
+dist
+server
+bun.lock
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
